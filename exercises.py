@@ -10,7 +10,7 @@ def returnPrimesTo100():
     primes = [2]
     for x in range(3,100,2):
         prime = True
-        for y in range(2,int(x*(1/2)+1)):
+        for y in range(2,int(x*(1/2))+1):
             if x % y == 0:
                 prime = False
                 break
@@ -31,4 +31,4 @@ def ageGroup():
     else: 
         return 'seniors'
 
-print(ageGroup())
+print(returnPrimesTo100())
