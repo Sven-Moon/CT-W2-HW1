@@ -8,7 +8,7 @@ def returnCubes():
 # Get first prime numbers up to 100
 def returnPrimesTo100():
     primes = [2]
-    for x in range(3,120,2):
+    for x in range(3,100,2):
         prime = True
         for y in range(2,int(x*(1/2)+1)):
             if x % y == 0:
